@@ -24,9 +24,14 @@ namespace Catalog.Service.Controllers
         }
 
         [HttpGet("{id}")]
-        public ItemDto GetbyId(Guid id)
+        public ActionResult<ItemDto> GetbyId(Guid id)
         {
             var item = items.Where(item => item.Id == id).SingleOrDefault();
+
+            if (item == null)
+            {
+                return NotFound();
+            }
             return item;
         }
 
@@ -43,6 +48,11 @@ namespace Catalog.Service.Controllers
         public IActionResult Put(Guid id, UpdateItemDto updateItemDto)
         {
             var existingItem = items.Where(item => item.Id == id).SingleOrDefault();
+
+            if (existingItem == null)
+            {
+                return NotFound();
+            }
 
             var updatedItem = existingItem with 
             {
@@ -61,6 +71,13 @@ namespace Catalog.Service.Controllers
         public IActionResult Delete(Guid id)
         {
             var index = items.FindIndex(existingItem => existingItem.Id == id);
+
+            // Since .FindIndex() is returning -1 if it's false, we can handle the Error like this
+            if (index < 0)
+            {
+                return NotFound();
+            }
+
             items.RemoveAt(index);
 
             return NoContent();
