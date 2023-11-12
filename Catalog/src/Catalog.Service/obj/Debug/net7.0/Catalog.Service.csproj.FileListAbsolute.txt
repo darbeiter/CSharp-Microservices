@@ -44,3 +44,4 @@ d:\C#\Microservices\Catalog\src\Catalog.Service\bin\Debug\net7.0\ZstdSharp.dll
 d:\C#\Microservices\Catalog\src\Catalog.Service\bin\Debug\net7.0\runtimes\linux\native\libmongocrypt.so
 d:\C#\Microservices\Catalog\src\Catalog.Service\bin\Debug\net7.0\runtimes\osx\native\libmongocrypt.dylib
 d:\C#\Microservices\Catalog\src\Catalog.Service\bin\Debug\net7.0\runtimes\win\native\mongocrypt.dll
+D:\C#\Microservices\Catalog\src\Catalog.Service\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Binder.dll

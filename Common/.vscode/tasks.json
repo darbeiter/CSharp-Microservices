@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Common.sln",
+                "${workspaceFolder}/src/Common/Common.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -16,6 +16,8 @@
                 "kind": "build",
                 "isDefault": true
             }
+             
+
         },
         {
             "label": "publish",
@@ -23,7 +25,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/Common.sln",
+                "${workspaceFolder}/src/Common/Common.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -37,7 +39,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/Common.sln"
+                "${workspaceFolder}/src/Common/Common.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

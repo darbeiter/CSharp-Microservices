@@ -1,0 +1,12 @@
+D:\C#\Microservices\Common\src\Common\bin\Debug\net7.0\Common.deps.json
+D:\C#\Microservices\Common\src\Common\bin\Debug\net7.0\Common.dll
+D:\C#\Microservices\Common\src\Common\bin\Debug\net7.0\Common.pdb
+D:\C#\Microservices\Common\src\Common\obj\Debug\net7.0\Common.csproj.AssemblyReference.cache
+D:\C#\Microservices\Common\src\Common\obj\Debug\net7.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Microservices\Common\src\Common\obj\Debug\net7.0\Common.AssemblyInfoInputs.cache
+D:\C#\Microservices\Common\src\Common\obj\Debug\net7.0\Common.AssemblyInfo.cs
+D:\C#\Microservices\Common\src\Common\obj\Debug\net7.0\Common.csproj.CoreCompileInputs.cache
+D:\C#\Microservices\Common\src\Common\obj\Debug\net7.0\Common.dll
+D:\C#\Microservices\Common\src\Common\obj\Debug\net7.0\refint\Common.dll
+D:\C#\Microservices\Common\src\Common\obj\Debug\net7.0\Common.pdb
+D:\C#\Microservices\Common\src\Common\obj\Debug\net7.0\ref\Common.dll
