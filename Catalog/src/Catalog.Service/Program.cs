@@ -4,6 +4,7 @@ using MongoDB.Bson;
 using Catalog.Service.Settings;
 using MongoDB.Driver;
 using Catalog.Service.Repositories;
+using Catalog.Service.Entities;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,7 +20,11 @@ builder.Services.AddSingleton(serviceProvider => {
 });
 
 
-    builder.Services.AddSingleton<IItemsRepository, ItemsRepository>();
+    builder.Services.AddSingleton<IRepository<Item>>(serviceProvider => 
+    {
+        var database = serviceProvider.GetService<IMongoDatabase>();
+        return new MongoRepository<Item>(database, "items");
+    });
 
 // Add services to the container.
 builder.Services.AddControllers(options => {
