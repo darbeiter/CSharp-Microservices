@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\Microservices\\Catalog\\src\\Catalog.Service\\Catalog.Service.csproj": {}
+    "D:\\C#\\Microservices\\Common\\src\\Common\\Common.csproj": {}
   },
   "projects": {
-    "D:\\C#\\Microservices\\Catalog\\src\\Catalog.Service\\Catalog.Service.csproj": {
+    "D:\\C#\\Microservices\\Common\\src\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\Microservices\\Catalog\\src\\Catalog.Service\\Catalog.Service.csproj",
-        "projectName": "Catalog.Service",
-        "projectPath": "D:\\C#\\Microservices\\Catalog\\src\\Catalog.Service\\Catalog.Service.csproj",
+        "projectUniqueName": "D:\\C#\\Microservices\\Common\\src\\Common\\Common.csproj",
+        "projectName": "Common",
+        "projectPath": "D:\\C#\\Microservices\\Common\\src\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\Dustin\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\Microservices\\Catalog\\src\\Catalog.Service\\obj\\",
+        "outputPath": "D:\\C#\\Microservices\\Common\\src\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,32 +43,6 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[7.0.13, )"
-            },
-            "Microsoft.Extensions.Configuration": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Microsoft.Extensions.Configuration.Binder": {
-              "target": "Package",
-              "version": "[7.0.4, )"
-            },
-            "Microsoft.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "MongoDB.Driver": {
-              "target": "Package",
-              "version": "[2.22.0, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.5.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -81,9 +55,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
