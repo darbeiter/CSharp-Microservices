@@ -1,10 +1,6 @@
-using MongoDB.Bson.Serialization;
-using MongoDB.Bson.Serialization.Serializers;
-using MongoDB.Bson;
-using Catalog.Service.Settings;
-using MongoDB.Driver;
-using Catalog.Service.Repositories;
 using Catalog.Service.Entities;
+using Common.MongoDB;
+using Common.Settings;
 
 var builder = WebApplication.CreateBuilder(args);
 ServiceSettings serviceSettings;

@@ -31,6 +31,21 @@
           }
         }
       },
+      "Common/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "7.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "7.0.4",
+          "Microsoft.Extensions.DependencyInjection": "7.0.0",
+          "MongoDB.Driver": "2.22.0"
+        },
+        "compile": {
+          "lib/net7.0/Common.dll": {}
+        },
+        "runtime": {
+          "lib/net7.0/Common.dll": {}
+        }
+      },
       "DnsClient/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -561,6 +576,17 @@
         "lib/netstandard2.0/AWSSDK.SecurityToken.xml",
         "tools/install.ps1",
         "tools/uninstall.ps1"
+      ]
+    },
+    "Common/1.0.0": {
+      "sha512": "HHSww8lYGN9OEbCMTNFKKFV29BOslqBVldRepFuX7JaHbLYRcQR/sO7K5VrJBLppWyEfL/w1IXJmJRGUQtIz4Q==",
+      "type": "package",
+      "path": "common/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "common.1.0.0.nupkg.sha512",
+        "common.nuspec",
+        "lib/net7.0/Common.dll"
       ]
     },
     "DnsClient/1.6.1": {
@@ -1511,11 +1537,11 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Common >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.13",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.Configuration.Binder >= 7.0.4",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
-      "MongoDB.Driver >= 2.22.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -1545,6 +1571,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "D:\\C#\\packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1563,6 +1590,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "Common": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[7.0.13, )"
@@ -1578,10 +1609,6 @@
           "Microsoft.Extensions.DependencyInjection": {
             "target": "Package",
             "version": "[7.0.0, )"
-          },
-          "MongoDB.Driver": {
-            "target": "Package",
-            "version": "[2.22.0, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

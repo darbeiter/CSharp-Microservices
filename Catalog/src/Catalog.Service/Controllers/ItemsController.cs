@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Catalog.Service.Dtos;
 using System.Linq;
-using Catalog.Service.Repositories;
 using Catalog.Service.Entities;
+using Common;
 
 namespace Catalog.Service.Controllers
 {

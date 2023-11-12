@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "EcAtANJoLUwvFK3xV44QGdjtYAzjge3ERXSl1QDjGmNIi6mDzMkIyXkLj+Qvlte1Xtde2taGGH5M06lxLh95rQ==",
+  "dgSpecHash": "6Kys+1GHgtYC6I+I44tStfkQpeP1Wge/ZIXukfmS6qoa9l1DBhi00QDyM83aHd+nTqbkJL5Lk/IdCWnLqWjxjA==",
   "success": true,
   "projectFilePath": "D:\\C#\\Microservices\\Catalog\\src\\Catalog.Service\\Catalog.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dustin\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Dustin\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
+    "C:\\Users\\Dustin\\.nuget\\packages\\common\\1.0.0\\common.1.0.0.nupkg.sha512",
     "C:\\Users\\Dustin\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\Dustin\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.13\\microsoft.aspnetcore.openapi.7.0.13.nupkg.sha512",
     "C:\\Users\\Dustin\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
