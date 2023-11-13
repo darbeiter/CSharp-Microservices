@@ -40,7 +40,7 @@
           "lib/net7.0/Catalog.Contracts.dll": {}
         }
       },
-      "Common/1.0.1": {
+      "Common/1.0.2": {
         "type": "package",
         "dependencies": {
           "MassTransit.AspNetCore": "7.3.1",
@@ -986,13 +986,13 @@
         "lib/net7.0/Catalog.Contracts.dll"
       ]
     },
-    "Common/1.0.1": {
-      "sha512": "cInISAPOGLRNfklqn5159jc+kq+nM51FfNN9TFtGaQTjzSm1mWXNqtLzPyNsIJWSiZTxcL488tHw7pTHWhvH8A==",
+    "Common/1.0.2": {
+      "sha512": "e9pJV45iMCJxVz+VZkajiGp7mCcYXv3NpVWMptaK7vBAd9JVNf+mC+unOCmQYMeq0OayGuwFgGgVPdaaTaqyeA==",
       "type": "package",
-      "path": "common/1.0.1",
+      "path": "common/1.0.2",
       "files": [
         ".nupkg.metadata",
-        "common.1.0.1.nupkg.sha512",
+        "common.1.0.2.nupkg.sha512",
         "common.nuspec",
         "lib/net7.0/Common.dll"
       ]
@@ -2619,7 +2619,7 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "Catalog.Contracts >= 1.0.0",
-      "Common >= 1.0.1",
+      "Common >= 1.0.2",
       "Microsoft.AspNetCore.OpenApi >= 7.0.13",
       "Microsoft.Extensions.Http.Polly >= 7.0.13",
       "Swashbuckle.AspNetCore >= 6.5.0"
@@ -2676,7 +2676,7 @@
           },
           "Common": {
             "target": "Package",
-            "version": "[1.0.1, )"
+            "version": "[1.0.2, )"
           },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",

@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "qqwhqulrUNBJRQHakL8h//erKYAUTSDMIYRsTMSmfG72M0fYqotSSZXN3cFkIYdlfCDzmZJw94ry/KP92x2V3g==",
+  "dgSpecHash": "sMaEvx0xSe3wL3tnHQHYX+lLdo4XGwAGPhjQpkN4DDpA2LLHhZRTbs288xGGKX29BlO8u9TfF62Z32Kj9/hpCA==",
   "success": true,
   "projectFilePath": "D:\\C#\\Microservices\\Inventory\\src\\Inventory.Service\\Inventory.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dustin\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Dustin\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Dustin\\.nuget\\packages\\catalog.contracts\\1.0.0\\catalog.contracts.1.0.0.nupkg.sha512",
-    "C:\\Users\\Dustin\\.nuget\\packages\\common\\1.0.1\\common.1.0.1.nupkg.sha512",
+    "C:\\Users\\Dustin\\.nuget\\packages\\common\\1.0.2\\common.1.0.2.nupkg.sha512",
     "C:\\Users\\Dustin\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\Dustin\\.nuget\\packages\\masstransit\\8.1.1\\masstransit.8.1.1.nupkg.sha512",
     "C:\\Users\\Dustin\\.nuget\\packages\\masstransit.abstractions\\8.1.1\\masstransit.abstractions.8.1.1.nupkg.sha512",
