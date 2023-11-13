@@ -9,7 +9,7 @@
       "Inventory.Service/1.0.0": {
         "dependencies": {
           "Catalog.Contracts": "1.0.0",
-          "Common": "1.0.1",
+          "Common": "1.0.2",
           "Microsoft.AspNetCore.OpenApi": "7.0.13",
           "Microsoft.Extensions.Http.Polly": "7.0.13",
           "Swashbuckle.AspNetCore": "6.5.0"
@@ -45,7 +45,7 @@
           }
         }
       },
-      "Common/1.0.1": {
+      "Common/1.0.2": {
         "dependencies": {
           "MassTransit.AspNetCore": "7.3.1",
           "MassTransit.RabbitMQ": "8.1.1",
@@ -490,12 +490,12 @@
       "path": "catalog.contracts/1.0.0",
       "hashPath": "catalog.contracts.1.0.0.nupkg.sha512"
     },
-    "Common/1.0.1": {
+    "Common/1.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cInISAPOGLRNfklqn5159jc+kq+nM51FfNN9TFtGaQTjzSm1mWXNqtLzPyNsIJWSiZTxcL488tHw7pTHWhvH8A==",
-      "path": "common/1.0.1",
-      "hashPath": "common.1.0.1.nupkg.sha512"
+      "sha512": "sha512-e9pJV45iMCJxVz+VZkajiGp7mCcYXv3NpVWMptaK7vBAd9JVNf+mC+unOCmQYMeq0OayGuwFgGgVPdaaTaqyeA==",
+      "path": "common/1.0.2",
+      "hashPath": "common.1.0.2.nupkg.sha512"
     },
     "DnsClient/1.6.1": {
       "type": "package",

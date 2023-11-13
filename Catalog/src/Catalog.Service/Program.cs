@@ -3,6 +3,12 @@ using Common.MassTransit;
 using Common.MongoDB;
 using Common.Settings;
 using MassTransit;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.Configuration;
+
+
+
+const string AllowedOriginSetting = "AllowedOrigin";
 
 var builder = WebApplication.CreateBuilder(args);
 ServiceSettings serviceSettings;
@@ -27,6 +33,12 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    var allowedOrigin = builder.Configuration[AllowedOriginSetting];
+    app.UseCors(builder => {
+        builder.WithOrigins(allowedOrigin)
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
 }
 
 app.UseHttpsRedirection();

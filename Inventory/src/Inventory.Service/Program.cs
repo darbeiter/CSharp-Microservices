@@ -5,6 +5,8 @@ using Inventory.Service.Entities;
 using Polly.Timeout;
 using Common.MassTransit;
 
+const string AllowedOriginSetting = "AllowedOrigin";
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -27,6 +29,12 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    var allowedOrigin = builder.Configuration[AllowedOriginSetting];
+    app.UseCors(builder => {
+        builder.WithOrigins(allowedOrigin)
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
 }
 
 app.UseHttpsRedirection();
