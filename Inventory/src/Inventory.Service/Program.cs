@@ -1,4 +1,5 @@
 using Common.MongoDB;
+using Inventory.Service.Clients;
 using Inventory.Service.Entities;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +11,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddMongo().AddMongoRepository<InventoryItem>("inventoryitems");
+builder.Services.AddHttpClient<CatalogClient>(client => {
+    client.BaseAddress = new Uri("https://localhost:7108");
+});
 
 var app = builder.Build();
 

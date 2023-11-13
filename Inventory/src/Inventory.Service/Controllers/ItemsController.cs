@@ -2,6 +2,7 @@ using Inventory.Service.Entities;
 using Common;
 using Inventory.Service.Dtos;
 using Microsoft.AspNetCore.Mvc;
+using Inventory.Service.Clients;
 
 namespace Inventory.Service.Controllers
 {
@@ -10,10 +11,12 @@ namespace Inventory.Service.Controllers
     public class ItemsController : ControllerBase
     {
         private readonly IRepository<InventoryItem> itemsRepository;
+        private readonly CatalogClient catalogClient;
 
-        public ItemsController(IRepository<InventoryItem> itemsRepository)
+        public ItemsController(IRepository<InventoryItem> itemsRepository, CatalogClient catalogClient)
         {
             this.itemsRepository = itemsRepository;
+            this.catalogClient = catalogClient;
         }
 
 
@@ -25,9 +28,14 @@ namespace Inventory.Service.Controllers
                 return BadRequest();
             }
 
-            var items = (await itemsRepository.GetAllAsync(items => items.UserId == userId)).Select(items => items.AsDto());
-
-            return Ok(items);
+            var catalogItems = await catalogClient.GetCatalogItemsAsync();
+            var inventoryItemEntities = await itemsRepository.GetAllAsync(item => item.UserId == userId);
+            var inventoryItemDtos = inventoryItemEntities.Select(inventoryItem => 
+            {
+                var catalogItem = catalogItems.Single(catalogItem => catalogItem.Id == inventoryItem.CatalogItemId);
+                return inventoryItem.AsDto(catalogItem.Name, catalogItem.Description);
+            });
+            return Ok(inventoryItemDtos);
         }
         
         [HttpPost]
