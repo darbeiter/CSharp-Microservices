@@ -7,19 +7,29 @@
         "type": "process",
         "args": [
             "build",
-            "${workspaceFolder}/Microservices.sln",
+            "${workspaceFolder}/Catalog.sln",
             "/property:GenerateFullPaths=true",
             "/consoleloggerparameters:NoSummary;ForceNoAlign"
         ],
         "problemMatcher": "$msCompile"
     },
+    {
+      "label": "Print Workspace Folder",
+      "type": "shell",
+      "command": "echo",
+      "args": ["${workspaceFolder}"],
+      "group": {
+          "kind": "build",
+          "isDefault": true
+      }
+  },
 	  {
 		"label": "clean",
 		"command": "dotnet",
 		"type": "process",
 		"args": [
 		  "clean",
-		  "D:\\C#\\Microservices\\Catalog\\src\\Catalog.Service\\Catalog.Service.csproj"
+		  "D:\\C#\\Catalog\\Catalog\\src\\Catalog.Service\\Catalog.Service.csproj"
 		]
     },
     {
@@ -28,7 +38,7 @@
         "type": "process",
         "args": [
             "publish",
-            "${workspaceFolder}/Microservices.sln",
+            "${workspaceFolder}/Catalog.sln",
             "/property:GenerateFullPaths=true",
             "/consoleloggerparameters:NoSummary;ForceNoAlign"
         ],
