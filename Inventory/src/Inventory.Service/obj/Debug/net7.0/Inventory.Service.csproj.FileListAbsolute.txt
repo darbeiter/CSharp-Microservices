@@ -46,3 +46,6 @@ D:\C#\Microservices\Inventory\src\Inventory.Service\obj\Debug\net7.0\refint\Inve
 D:\C#\Microservices\Inventory\src\Inventory.Service\obj\Debug\net7.0\Inventory.Service.pdb
 D:\C#\Microservices\Inventory\src\Inventory.Service\obj\Debug\net7.0\Inventory.Service.genruntimeconfig.cache
 D:\C#\Microservices\Inventory\src\Inventory.Service\obj\Debug\net7.0\ref\Inventory.Service.dll
+D:\C#\Microservices\Inventory\src\Inventory.Service\bin\Debug\net7.0\Microsoft.Extensions.Http.Polly.dll
+D:\C#\Microservices\Inventory\src\Inventory.Service\bin\Debug\net7.0\Polly.dll
+D:\C#\Microservices\Inventory\src\Inventory.Service\bin\Debug\net7.0\Polly.Extensions.Http.dll
