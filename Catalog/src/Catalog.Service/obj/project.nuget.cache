@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "AVCM9BuWHk7WjAvKk9DFVeW+VltafEJcz2ws/hYgbivQzF+v+/9TjWDJ9qrE+DpGc/7fNmL0K81J8fSf69vFLg==",
+  "dgSpecHash": "fNXOi/CzVVVOTElf6Z4dK9hIe7jkOeC3bu97auQw6ZSDx7pCYU4NDJp9vo8amaCN1fgF54yu9lXRsQImP78WuA==",
   "success": true,
   "projectFilePath": "D:\\C#\\Microservices\\Catalog\\src\\Catalog.Service\\Catalog.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dustin\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Dustin\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
-    "C:\\Users\\Dustin\\.nuget\\packages\\common\\1.0.1\\common.1.0.1.nupkg.sha512",
+    "C:\\Users\\Dustin\\.nuget\\packages\\common\\1.0.2\\common.1.0.2.nupkg.sha512",
     "C:\\Users\\Dustin\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\Dustin\\.nuget\\packages\\masstransit\\8.1.1\\masstransit.8.1.1.nupkg.sha512",
     "C:\\Users\\Dustin\\.nuget\\packages\\masstransit.abstractions\\8.1.1\\masstransit.abstractions.8.1.1.nupkg.sha512",
@@ -52,7 +52,8 @@
     "C:\\Users\\Dustin\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\Dustin\\.nuget\\packages\\system.text.json\\7.0.3\\system.text.json.7.0.3.nupkg.sha512",
     "C:\\Users\\Dustin\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512",
-    "C:\\Users\\Dustin\\.nuget\\packages\\zstdsharp.port\\0.6.2\\zstdsharp.port.0.6.2.nupkg.sha512"
+    "C:\\Users\\Dustin\\.nuget\\packages\\zstdsharp.port\\0.6.2\\zstdsharp.port.0.6.2.nupkg.sha512",
+    "C:\\Users\\Dustin\\.nuget\\packages\\catalog.contracts\\1.0.0\\catalog.contracts.1.0.0.nupkg.sha512"
   ],
   "logs": []
 }
