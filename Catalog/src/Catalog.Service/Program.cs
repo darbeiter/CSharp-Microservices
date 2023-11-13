@@ -1,13 +1,15 @@
 using Catalog.Service.Entities;
+using Common.MassTransit;
 using Common.MongoDB;
 using Common.Settings;
+using MassTransit;
 
 var builder = WebApplication.CreateBuilder(args);
 ServiceSettings serviceSettings;
 
 builder.Configuration.AddJsonFile("appsettings.json");
 serviceSettings = builder.Configuration.GetSection(nameof(ServiceSettings)).Get<ServiceSettings>();
-builder.Services.AddMongo().AddMongoRepository<Item>("items");
+builder.Services.AddMongo().AddMongoRepository<Item>("items").AddMassTransitWithRabbitMq();
 
 // Add services to the container.
 builder.Services.AddControllers(options => {

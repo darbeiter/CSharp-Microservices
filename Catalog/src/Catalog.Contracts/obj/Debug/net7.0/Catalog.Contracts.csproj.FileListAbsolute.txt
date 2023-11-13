@@ -1,0 +1,11 @@
+D:\C#\Microservices\Catalog\src\Catalog.Contracts\bin\Debug\net7.0\Catalog.Contracts.deps.json
+D:\C#\Microservices\Catalog\src\Catalog.Contracts\bin\Debug\net7.0\Catalog.Contracts.dll
+D:\C#\Microservices\Catalog\src\Catalog.Contracts\bin\Debug\net7.0\Catalog.Contracts.pdb
+D:\C#\Microservices\Catalog\src\Catalog.Contracts\obj\Debug\net7.0\Catalog.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Microservices\Catalog\src\Catalog.Contracts\obj\Debug\net7.0\Catalog.Contracts.AssemblyInfoInputs.cache
+D:\C#\Microservices\Catalog\src\Catalog.Contracts\obj\Debug\net7.0\Catalog.Contracts.AssemblyInfo.cs
+D:\C#\Microservices\Catalog\src\Catalog.Contracts\obj\Debug\net7.0\Catalog.Contracts.csproj.CoreCompileInputs.cache
+D:\C#\Microservices\Catalog\src\Catalog.Contracts\obj\Debug\net7.0\Catalog.Contracts.dll
+D:\C#\Microservices\Catalog\src\Catalog.Contracts\obj\Debug\net7.0\refint\Catalog.Contracts.dll
+D:\C#\Microservices\Catalog\src\Catalog.Contracts\obj\Debug\net7.0\Catalog.Contracts.pdb
+D:\C#\Microservices\Catalog\src\Catalog.Contracts\obj\Debug\net7.0\ref\Catalog.Contracts.dll
