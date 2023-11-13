@@ -45,9 +45,13 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Common": {
+            "Catalog.Contracts": {
               "target": "Package",
               "version": "[1.0.0, )"
+            },
+            "Common": {
+              "target": "Package",
+              "version": "[1.0.1, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",

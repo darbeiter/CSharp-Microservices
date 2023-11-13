@@ -49,3 +49,14 @@ D:\C#\Microservices\Inventory\src\Inventory.Service\obj\Debug\net7.0\ref\Invento
 D:\C#\Microservices\Inventory\src\Inventory.Service\bin\Debug\net7.0\Microsoft.Extensions.Http.Polly.dll
 D:\C#\Microservices\Inventory\src\Inventory.Service\bin\Debug\net7.0\Polly.dll
 D:\C#\Microservices\Inventory\src\Inventory.Service\bin\Debug\net7.0\Polly.Extensions.Http.dll
+D:\C#\Microservices\Inventory\src\Inventory.Service\bin\Debug\net7.0\Catalog.Contracts.dll
+D:\C#\Microservices\Inventory\src\Inventory.Service\bin\Debug\net7.0\MassTransit.dll
+D:\C#\Microservices\Inventory\src\Inventory.Service\bin\Debug\net7.0\MassTransit.Abstractions.dll
+D:\C#\Microservices\Inventory\src\Inventory.Service\bin\Debug\net7.0\MassTransit.AspNetCoreIntegration.dll
+D:\C#\Microservices\Inventory\src\Inventory.Service\bin\Debug\net7.0\MassTransit.ExtensionsDependencyInjectionIntegration.dll
+D:\C#\Microservices\Inventory\src\Inventory.Service\bin\Debug\net7.0\MassTransit.RabbitMqTransport.dll
+D:\C#\Microservices\Inventory\src\Inventory.Service\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\C#\Microservices\Inventory\src\Inventory.Service\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+D:\C#\Microservices\Inventory\src\Inventory.Service\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\C#\Microservices\Inventory\src\Inventory.Service\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\C#\Microservices\Inventory\src\Inventory.Service\bin\Debug\net7.0\RabbitMQ.Client.dll
