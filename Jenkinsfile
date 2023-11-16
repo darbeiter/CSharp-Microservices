@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label: "master"
+        label 'master'
     }
     tools {
         jdk 'Java20'
@@ -14,7 +14,7 @@ pipeline {
                 cleanWs()
             }
         }
-        stage('Checkout') {
+        stage('Checkout GitHub Branch') {
             steps {
                git branch: 'main', credentialsid: 'github', url: 'https://github.com/darbeiter/CSharp-Microservices'
             }
