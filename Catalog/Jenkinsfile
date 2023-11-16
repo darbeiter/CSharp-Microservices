@@ -1,0 +1,26 @@
+pipeline {
+    agent {
+        label 'master'
+    }
+    tools {
+        dotnet 'dotnet'
+        msbuild 'msbuild'
+    }
+    stages {
+        stage('Cleanup Workspace') {
+            steps {
+                cleanWs()
+            }
+        }
+        stage('Checkout GitHub Branch') {
+            steps {
+               git branch: 'main', credentialsId: 'github', url: 'https://github.com/darbeiter/CSharp-Microservices'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
+    }
+}
