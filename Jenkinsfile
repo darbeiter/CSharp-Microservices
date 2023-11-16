@@ -3,8 +3,8 @@ pipeline {
         label 'master'
     }
     tools {
-        jdk 'Java20'
-        maven 'Maven3'
+        // jdk 'Java20'
+        // maven 'Maven3'
         dotnet 'dotnet'
         msbuild 'msbuild'
     }
