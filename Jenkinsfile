@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Checkout GitHub Branch') {
             steps {
-               git branch: 'refs/heads/main', credentialsId: 'github', url: 'https://github.com/darbeiter/CSharp-Microservices'
+               git 'https://github.com/darbeiter/CSharp-Microservices'
             }
         }
         stage('Deploy') {
